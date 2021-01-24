@@ -1,0 +1,1 @@
+{"name": "group.renault.com", "allowed_domains": ["group.renault.com"], "start_urls": ["https://group.renault.com/en/"], "allow": ["/en/"], "deny": ["contact", "newsletter", "special-offers", "financial-services", "corporate", "models", "find-a-dealer", "site-map", "privacy", "terms", "faq", "finance", "careers", "contact-us", "talent", "finance-2"], "deny_domains": []}

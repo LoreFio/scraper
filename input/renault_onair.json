@@ -1,0 +1,1 @@
+{"name": "renault_onair", "allowed_domains": ["group.renault.com"], "start_urls": ["https://group.renault.com/en/"], "allow": ["news-on-air"], "deny": [], "deny_domains": []}

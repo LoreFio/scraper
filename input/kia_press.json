@@ -1,0 +1,1 @@
+{"name": "press.kia.com", "allowed_domains": ["press.kia.com"], "start_urls": ["https://press.kia.com/eu/en/home.html"], "allow": ["press-releases", "press-kits", "eu"], "deny": [], "deny_domains": [], "restrict_text":  []}

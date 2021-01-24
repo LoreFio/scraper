@@ -1,0 +1,1 @@
+{"name": "media_volkswagen_fr", "allowed_domains": ["media.volkswagen.fr"], "start_urls": ["https://media.volkswagen.fr/"], "allow": [], "deny": [], "deny_domains": [], "restrict_text": []}

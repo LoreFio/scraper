@@ -1,0 +1,1 @@
+{"name": "volkswagengroup_fr_actualites", "allowed_domains": ["volkswagengroup.fr"], "start_urls": ["https://volkswagengroup.fr/actualites/"], "allow": [], "deny": ["groupe", "carrieres", "innovations", "partenariats", "nos-marques", "medias", "contact", "mentions-legales", "recrutement"], "deny_domains": [], "restrict_text": []}
