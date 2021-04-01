@@ -1,0 +1,6 @@
+nltk==3.5
+spacy==3.0.5
+scrapy==2.4.1
+langdetect==1.0.8
+protego==0.1.16
+gensim==3.8.0
