@@ -41,7 +41,7 @@ if __name__ == '__main__':
     parser.add_argument("-p", help = "project", type = str,
                         default = 'renault', choices = project_list)
     parser.add_argument("-f", help="list of sites", nargs = "*",
-                        default = [])
+                        default = ['ces2020'])
     project = str(parser.parse_args().p).replace("\n", "")
     site_list = list(parser.parse_args().f)
     
