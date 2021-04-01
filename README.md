@@ -1,29 +1,27 @@
 # Scrapper
 Python Scrapper for websites and NLP analysis
 
-pip install scrapy
-pip install spacy
-pip install nltk
-pip install langdetect
+pip install -r requirements.txt
+python -m spacy download en_core_web_md
 python -m spacy download en_core_web_sm
 python -m nltk.downloader all
-
 Then it is necessary to dowload from git and prepare the directories
 git clone https://codehub.tki.la/lfiorentini/scraper.git
 cd scraper
 
 Finally, if we want for example to analyse the site renault_onair (for which the json file is already present in the directory ./input) we have to execute the commands
 
+mkdir output
 mkdir kwords_db
 mkdir iterative
 mkdir logs
 touch kwords_db/kw.json
 cd code/
-python3 launch_scrapy.py -f renault_onair
-python3 launch_scrapy.py -f renault_onair
+python3 launch_scrapy.py -f ces2020
+python3 launch_scrapy.py -f ces2020
 # it is not an error that script has to be launched twice
-python3 scraper_pipeline.py -f renault_onair
-python3 wordcloud_gen.py -f renault_onair
+python3 scraper_pipeline.py -f ces2020
+python3 wordcloud_gen.py -f ces2020
 
 # Basic parameters and settings
 In spider_results.py
