@@ -12,15 +12,23 @@ cd scraper
 Finally, if we want for example to analyse the site renault_onair (for which the json file is already present in the directory ./input) we have to execute the commands
 
 mkdir output
+
 mkdir kwords_db
+
 mkdir iterative
+
 mkdir logs
+
 touch kwords_db/kw.json
+
 cd code/
+
 python3 launch_scrapy.py -f ces2020
-python3 launch_scrapy.py -f ces2020
-# it is not an error that script has to be launched twice
+
+python3 launch_scrapy.py -f ces2020 (it is not an error that script has to be launched twice)
+
 python3 scraper_pipeline.py -f ces2020
+
 python3 wordcloud_gen.py -f ces2020
 
 # Basic parameters and settings
@@ -37,5 +45,7 @@ adjust the size of iterations by choosing how many keywords pass to next
 iteration by changing index size in 'keys' variable (line 58). You can also
 define keywords which will be used in every search combination by putting them
 in 'must_have_keys' variable.
+
+Example in english with 10 iterations:
 
 python3 iterative_process.py -i 10 -l 'en'
