@@ -1,5 +1,5 @@
-# Scrapper
-Python Scrapper for websites and NLP analysis
+# Scraper
+Python Scraper for websites and NLP analysis
 
 pip install -r requirements.txt
 python -m spacy download en_core_web_md
